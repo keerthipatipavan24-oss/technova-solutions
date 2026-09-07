@@ -12,7 +12,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Admin from "./pages/Admin";
 
-import { ThemeProvider, ThemeContext } from "./context/ThemeContext";
+import { ThemeProvider, ThemeContext } from "./Context/ThemeContext";
 
 function AppContent() {
   const { darkMode } = useContext(ThemeContext);
