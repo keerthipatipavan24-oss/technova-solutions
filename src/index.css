@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #1f2937;
+  overflow-x: hidden;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+
+/* =========================
+   COMMON SECTION HEADING
+========================= */
+
+.section-heading {
+  max-width: 750px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #0284c7;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: 58px;
+  line-height: 1.2;
+  color: #0f172a;
+  margin-bottom: 18px;
+}
+
+.section-description {
+  font-size: 17px;
+  color: #64748b;
+  line-height: 1.7;
+}
+ 
+
+.dark-mode {
+  min-height: 100vh;
+  background-color: #020617;
+  color: #ffffff;
+}
+
+.dark-mode .hero-section,
+.dark-mode .about-hero,
+.dark-mode .services-hero,
+.dark-mode .projects-hero,
+.dark-mode .contact-hero {
+  background-color: #020617;
+}
+
+.dark-mode .why-section,
+.dark-mode .services-section {
+  background-color: #020617;
+}
+
+.dark-mode .stats-section {
+  background-color: #000000;
+}
+
+.dark-mode .cta-section {
+  background-color: #000000;
+}
+
+.dark-mode .about-info-section,
+.dark-mode .about-why-section {
+  background-color: #020617;
+}
+
+.dark-mode .mission-section {
+  background-color: #020617;
+}
+
+.dark-mode .about-cta-section {
+  background-color: #000000;
+}
+
+.dark-mode .services-list-section {
+  background-color: #020617;
+}
+
+.dark-mode .services-cta {
+  background-color: #000000;
+}
+
+.dark-mode .projects-list-section {
+  background-color: #020617;
+}
+
+.dark-mode .projects-cta {
+  background-color: #000000;
+}
+
+.dark-mode .contact-section {
+  background-color: #020617;
+}
+
+.dark-mode .contact-cta {
+  background-color: #000000;
+}
+
+.dark-mode .service-details-hero {
+  background-color: #000000;
+}
+
+.dark-mode .service-details-content {
+  background-color: #020617;
+}
+
+.dark-mode .why-card,
+.dark-mode .service-card,
+.dark-mode .mission-card,
+.dark-mode .about-why-card,
+.dark-mode .project-card,
+.dark-mode .contact-form-container,
+.dark-mode .service-feature {
+  background-color: #0f172a;
+  border-color: #1e293b;
+}
+
+.dark-mode .why-card h3,
+.dark-mode .service-card h3,
+.dark-mode .mission-card h2,
+.dark-mode .about-why-card h3,
+.dark-mode .project-card h3,
+.dark-mode .contact-form-container h2,
+.dark-mode .service-details-content h2 {
+  color: #ffffff;
+}
+
+.dark-mode .hero-title,
+.dark-mode .about-hero-title,
+.dark-mode .services-hero h1,
+.dark-mode .projects-hero h1,
+.dark-mode .contact-hero h1,
+.dark-mode .section-title {
+  color: #ffffff;
+}
+
+.dark-mode .hero-description,
+.dark-mode .about-hero-description,
+.dark-mode .services-hero-description,
+.dark-mode .projects-hero-description,
+.dark-mode .contact-hero-description,
+.dark-mode .section-description,
+.dark-mode .why-card p,
+.dark-mode .service-card p,
+.dark-mode .mission-card p,
+.dark-mode .about-why-card p,
+.dark-mode .project-card p,
+.dark-mode .contact-info-description {
+  color: #cbd5e1;
+}
+
+.dark-mode .form-group label {
+  color: #e2e8f0;
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group textarea {
+  background-color: #0f172a;
+  color: #ffffff;
+  border-color: #334155;
+}
+
+.dark-mode .form-group input::placeholder,
+.dark-mode .form-group textarea::placeholder {
+  color: #94a3b8;
+}
+
+.dark-mode .service-details-hero h1 {
+  color: #ffffff;
+}
+
+.dark-mode .service-details-hero > p:last-child {
+  color: #cbd5e1;
+}
+
+.dark-mode .service-feature p {
+  color: #cbd5e1;
+}
+
+.dark-mode .contact-info h2 {
+  color: #ffffff;
+}
+
+.dark-mode .contact-detail {
+  border-color: #1e293b;
+}
+
+.dark-mode .contact-detail h3 {
+  color: #ffffff;
+}
+
+.dark-mode .contact-detail p {
+  color: #cbd5e1;
+}
+
+.dark-mode .project-category {
+  background-color: #082f49;
+  color: #38bdf8;
+} 
+
+.dark-mode .admin-header,
+.dark-mode .admin-form-section,
+.dark-mode .admin-projects-section {
+  background-color: #020617;
+}
+
+.dark-mode .admin-header h1,
+.dark-mode .admin-form-container h2,
+.dark-mode .admin-projects-section > h2,
+.dark-mode .admin-project-card h3 {
+  color: #ffffff;
+}
+
+.dark-mode .admin-header p:last-child {
+  color: #cbd5e1;
+}
+
+.dark-mode .admin-form-container,
+.dark-mode .admin-project-card {
+  background-color: #0f172a;
+  border-color: #1e293b;
+}
+
+.dark-mode .admin-form-group label {
+  color: #e2e8f0;
+}
+
+.dark-mode .admin-form-group input {
+  background-color: #0f172a;
+  color: #ffffff;
+  border-color: #334155;
+}
+
+.dark-mode .admin-form-group input::placeholder {
+  color: #94a3b8;
+}
+
+.dark-mode .admin-form-group input:focus {
+  border-color: #38bdf8;
+}
+
+.dark-mode .admin-project-card span {
+  background-color: #082f49;
+  color: #38bdf8;
+} 

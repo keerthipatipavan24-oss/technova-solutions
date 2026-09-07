@@ -1,0 +1,372 @@
+/* =========================
+   ADMIN PAGE
+========================= */
+
+.admin-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+
+/* =========================
+   ADMIN HEADER
+========================= */
+
+.admin-header {
+  padding: 80px 20px 65px;
+  text-align: center;
+  background-color: #f8fafc;
+}
+
+.admin-header .section-subtitle {
+  margin-bottom: 14px;
+}
+
+.admin-header h1 {
+  margin: 0 0 16px;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #0f172a;
+}
+
+.admin-header > p:last-child {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #64748b;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   FORM SECTION
+========================= */
+
+.admin-form-section {
+  padding: 70px 20px;
+  background-color: #ffffff;
+}
+
+.admin-form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 35px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+
+.admin-form-container h2 {
+  margin: 0 0 28px;
+  font-size: 28px;
+  color: #0f172a;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.admin-form-group {
+  margin-bottom: 22px;
+}
+
+.admin-form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.admin-form-group input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 13px 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  outline: none;
+  background-color: #ffffff;
+  color: #0f172a;
+  font-size: 15px;
+  font-family: inherit;
+  transition: 0.3s;
+}
+
+.admin-form-group input:focus {
+  border-color: #0284c7;
+  box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.08);
+}
+
+
+/* =========================
+   FORM ERROR
+========================= */
+
+.admin-form-error {
+  margin: 6px 0 0;
+  color: #dc2626;
+  font-size: 13px;
+}
+
+
+/* =========================
+   FORM BUTTONS
+========================= */
+
+.admin-form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.admin-form-actions button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.admin-form-actions button:hover {
+  background-color: #0369a1;
+}
+
+.admin-form-actions .cancel-btn {
+  background-color: #64748b;
+}
+
+.admin-form-actions .cancel-btn:hover {
+  background-color: #475569;
+}
+
+
+/* =========================
+   PROJECTS SECTION
+========================= */
+
+.admin-projects-section {
+  padding: 75px 20px 90px;
+  background-color: #ffffff;
+}
+
+.admin-projects-heading {
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.admin-projects-heading .section-subtitle {
+  margin-bottom: 10px;
+}
+
+.admin-projects-heading h2 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1.25;
+  color: #0f172a;
+}
+
+
+/* =========================
+   PROJECT CARDS
+========================= */
+
+.admin-projects-list {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.admin-project-card {
+  min-height: 250px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.admin-project-card:hover {
+  transform: translateY(-3px);
+  border-color: #cbd5e1;
+}
+
+
+/* =========================
+   PROJECT CATEGORY
+========================= */
+
+.admin-project-category {
+  display: inline-block;
+  width: fit-content;
+  margin-bottom: 18px;
+  padding: 7px 13px;
+  border-radius: 20px;
+  background-color: #e0f2fe;
+  color: #0284c7;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+/* =========================
+   PROJECT TITLE
+========================= */
+
+.admin-project-card h3 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.35;
+  color: #0f172a;
+}
+
+
+/* =========================
+   PROJECT ACTIONS
+========================= */
+
+.admin-project-actions {
+  margin-top: auto;
+  padding-top: 30px;
+  display: flex;
+  gap: 12px;
+}
+
+.admin-project-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.admin-project-actions button:hover {
+  background-color: #0369a1;
+}
+
+
+/* =========================
+   DARK MODE
+========================= */
+
+.dark-mode .admin-page {
+  background-color: #0f172a;
+}
+
+.dark-mode .admin-header {
+  background-color: #0f172a;
+}
+
+.dark-mode .admin-header h1,
+.dark-mode .admin-projects-heading h2,
+.dark-mode .admin-form-container h2,
+.dark-mode .admin-project-card h3 {
+  color: #ffffff;
+}
+
+.dark-mode .admin-header > p:last-child {
+  color: #cbd5e1;
+}
+
+.dark-mode .admin-form-section,
+.dark-mode .admin-projects-section {
+  background-color: #0f172a;
+}
+
+.dark-mode .admin-form-container,
+.dark-mode .admin-project-card {
+  background-color: #020617;
+  border-color: #1e293b;
+}
+
+.dark-mode .admin-form-group label {
+  color: #e2e8f0;
+}
+
+.dark-mode .admin-form-group input {
+  background-color: #0f172a;
+  color: #ffffff;
+  border-color: #334155;
+}
+
+.dark-mode .admin-form-group input::placeholder {
+  color: #94a3b8;
+}
+
+.dark-mode .admin-project-category {
+  background-color: #0c4a6e;
+  color: #7dd3fc;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .admin-header {
+    padding: 70px 20px 55px;
+  }
+
+  .admin-header h1 {
+    font-size: 42px;
+  }
+
+  .admin-projects-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 600px) {
+  .admin-header {
+    padding: 60px 20px 45px;
+  }
+
+  .admin-header h1 {
+    font-size: 36px;
+  }
+
+  .admin-form-section,
+  .admin-projects-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .admin-form-container {
+    padding: 25px;
+  }
+
+  .admin-projects-list {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-project-card {
+    min-height: 230px;
+  }
+
+  .admin-form-actions {
+    flex-direction: column;
+  }
+
+  .admin-form-actions button {
+    width: 100%;
+  }
+
+  .admin-project-actions button {
+    flex: 1;
+  }
+} 
